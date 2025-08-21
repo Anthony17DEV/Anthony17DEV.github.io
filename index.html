@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Anderson - Desenvolvedor Full-Stack</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="nav-esquerda">
+                <a href="#" class="logo">&lt;/Anthony.Dev&gt;</a>
+            </div>
+
+            <div class="nav-centro">
+                <ul class="nav-links">
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-direita">
+                <a href="Currículo profissional Anthony Anderson.pdf" class="btn-nav" download>Currículo</a>
+                <div class="nav-socials">
+                    <a href="https://www.linkedin.com/in/anthonydev17" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h1 class="fade-in">Olá, eu sou o Anthony 👋</h1>
+
+                <h2 class="fade-in">Desenvolvedor Back-End especialista em sistemas robustos e escaláveis.</h2>
+                
+                <p class="fade-in">Com foco em PHP e Python, construo e otimizo a espinha dorsal de aplicações web e mobile, garantindo performance e integrações eficientes.</p>
+
+                <p class="localizacao fade-in">
+                    <i class="fas fa-map-marker-alt"></i> Mossoró-RN | Aberto a trabalho remoto e presencial 
+                </p>
+                
+                <div class="hero-botoes fade-in">
+                    <a href="#projetos" class="btn btn-principal">Ver Projetos</a>
+                    <a href="https://www.linkedin.com/in/anthonydev17" target="_blank" class="btn btn-secundario">LinkedIn</a> 
+                    <a href="https://github.com/Anthony17DEV" target="_blank" class="btn btn-secundario">GitHub</a>
+                    <a href="#contato" class="btn btn-secundario">Entrar em Contato</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <h2 class="fade-in">Projetos</h2>
+                <div class="projetos-grid">
+                    <div class="card-projeto fade-in">
+                        <img src="imagens/consulteerp.png" alt="Sistema de Gestão ERP Consulte">
+                        
+                        <div class="card-content">
+                            <h3>Sistema de Gestão ERP Consulte</h3>
+                            
+                            <p>Como fundador e desenvolvedor principal na RzCode, criei um sistema ERP completo para otimizar a gestão de pequenas empresas. A solução integra controle de estoque, processamento de vendas e geração de relatórios financeiros. </p>
+                            
+                            <div class="tags-tecnologia">
+                                <span>PHP</span>
+                                <span>Banco de Dados</span>
+                                <span>API RESTful</span>
+                            </div>
+                            
+                            <div class="links-projeto">
+                                <a href="https://consulteerp.com/login" target="_blank">Ver Demonstração ➔</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projeto fade-in">
+                        <img src="imagens/whatsapp.png" alt="Bot de Vendas para Whatsapp">
+                        
+                        <div class="card-content">
+                            <h3>Bot de Vendas para Whatsapp</h3>
+                            
+                            <p>Adaptação e implementação de um bot de automação de vendas para o Whatsapp. O sistema integra-se diretamente com a API's para processar pagamentos, controlando o estoque de produtos via comandos de chat como <strong>/venda</strong> e <strong>/delproduct</strong>.</p>
+                            
+                            <div class="tags-tecnologia">
+                                <span>Node.js</span>
+                                <span>JavaScript</span>
+                            </div>
+                            
+                            <div class="links-projeto">
+                                <a href="https://github.com/Anthony17DEV/BotVendas" target="_blank">Código no GitHub ➔</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projeto fade-in">
+                        <img src="imagens/ceos.png" alt="CEOS - Assistente Virtual em Python">
+                        
+                        <div class="card-content">
+                            <h3>CEOS - Assistente Virtual</h3>
+                            
+                            <p>Assistente virtual de desktop desenvolvida em Python para aprimorar conhecimentos em softwares inteligentes. A CEOS utiliza reconhecimento de voz para executar comandos, como interagir com o sistema operacional para abrir programas, informar a hora e buscar dados meteorológicos via API. </p>
+                            
+                            <div class="tags-tecnologia">
+                                <span>Python</span>
+                                <span>SpeechRecognition</span>
+                                <span>Pyttsx3</span>
+                                <span>Requests (API)</span>
+                                <span>OS</span>
+                            </div>
+                            
+                            <div class="links-projeto">
+                                <a href="https://github.com/Anthony17DEV/Ceos" target="_blank">Código no GitHub ➔</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projeto fade-in">
+                        <img src="imagens/house.png" alt="HouseApp - Gestor Financeiro em Flutter">
+                        
+                        <div class="card-content">
+                            <h3>HouseApp - Gestor Financeiro</h3>
+                            
+                            <p>Aplicativo multiplataforma de gestão financeira pessoal construído em Flutter. Permite o gerenciamento de receitas e despesas com relatórios detalhados, incluindo gráficos por categoria e filtros por período, utilizando o banco de dados local Hive para armazenamento rápido dos dados. </p>
+                            
+                            <div class="tags-tecnologia">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Hive DB</span>
+                            </div>
+                            
+                            <div class="links-projeto">
+                                <a href="https://github.com/Anthony17DEV/HouseApp" target="_blank">Código no GitHub ➔</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projeto fade-in card-observacao">
+                        <div class="card-content">
+                            
+                            <div class="card-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+
+                            <h3>Projetos Adicionais e Experiência Comercial</h3>
+                            
+                            <p>Além dos projetos em destaque, participei ativamente no desenvolvimento de diversas soluções comerciais para empresas. Devido a acordos de confidencialidade, o código-fonte não pode ser exibido publicamente.</p>
+                            
+                            <div class="tags-tecnologia">
+                                <span>Trabalho em Equipe</span>
+                                <span>Sistemas ERP</span>
+                                <span>Metodologias Ágeis</span>
+                            </div>
+                            
+                            <div class="links-projeto">
+                                <a href="#contato">Vamos Conversar ➔</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="container fade-in">
+                <h2>Sobre Mim</h2>
+                <div class="sobre-conteudo">
+                    <img src="imagens/perfil.jpeg" alt="Foto de Anthony Anderson" class="sua-foto">
+                    
+                    <div class="sobre-texto">
+                        <p>
+                            Desde o meu curso Técnico em Informática no <strong>IFRN</strong>, sou movido pelo desafio de transformar problemas em soluções através do código. Essa paixão me levou à graduação em Ciência da Computação na <strong>UERN</strong> e a fundar a <strong>RzCode Company</strong>, onde tive a oportunidade de criar sistemas de gestão do zero, impactando diretamente o sucesso de pequenas empresas.
+                            <br><br>
+                            Hoje, como Desenvolvedor Back-End na <strong>Cactus Tecnologia</strong>, aplico essa mentalidade de "dono do produto" para construir soluções web e mobile otimizadas. Minha especialidade é o desenvolvimento de back-ends robustos em <strong>PHP e Python</strong>, mas minha verdadeira motivação é colaborar em equipe para entregar software que não apenas funciona, mas que também faz a diferença.
+                        </p>
+
+                        <h3>Minhas Habilidades</h3>
+
+                        <ul class="lista-tecnologias">
+                            <li>PHP</li>
+                            <li>Python</li>
+                            <li>Node.js</li>
+                            <li>Java</li>
+                            <li>Git & GitHub</li>
+                            <li>Node.js</li>
+                            <li>React</li>
+                            <li>Flutter & Dart</li>
+                            <li>Banco de Dados (SQL/NoSQL)</li>
+                            <li>APIs RESTful</li>
+                            <li>Liderança Técnica</li>
+                            <li>Gestão de Tempo</li>
+                            <li>Trabalho em Equipe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container fade-in">
+                <h2>Vamos Conversar?</h2>
+                <p>Gostou do que viu? Estou aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato através do seu canal preferido abaixo.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:airanthony17@gmail.com">airanthony17@gmail.com</a>
+                    </div>
+
+                    <div class="contact-method">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/anthonydev17" target="_blank">linkedin.com/in/anthonydev17</a>
+                    </div>
+
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+5584994624081">(84) 99462-4081</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Desenvolvido por Anthony</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
